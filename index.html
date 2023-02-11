@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css">
-    <script src="script.js"></script>
+    <script type="text/javascript" src="jquery-3.6.1.js"></script>
+    <script type="text/javascript" src="script.js"></script>
     <title>BMI Calculator</title>
 </head>
 <body>
@@ -13,11 +14,12 @@
     <div class="form">
         <form>
             <label for="height">Height (cm) :</label><br>
-            <input type="number" id="height"><br>
+            <input type="number" id="height" min="1" max="300"><br>
             <label for="weight">Weight (kg) :</label><br>
-            <input type="number" id="weight"><br>
-            <button>Calculate</button>
+            <input type="number" id="weight" min="1"><br>
+            <button type ="button" id="calculate">Calculate</button>
         </form>
+        <div class="result"></div>
     </div>
    </div> 
 </body>
