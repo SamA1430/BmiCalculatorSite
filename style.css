@@ -1,0 +1,36 @@
+body{
+    height:100px;
+}
+
+.container{
+    border:2px solid black;
+    width:fit-content;
+    height: fit-content;
+    margin: auto;
+    border-radius: 4px;
+    padding:10px;
+    margin-top:10em;
+}
+
+form *{
+    margin:10px;
+
+}
+
+input{
+    width:50%;
+    margin-left:10px;
+}
+
+button{
+    margin-left:10px;
+    background-color:#0055ff ;
+    padding:10px;
+    border-radius:5px;
+    color:white;
+}
+
+button:hover{
+    background-color:#0099ff;
+    cursor:pointer;
+}
